@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SAÉ — Site web — Rétro-planning manuel" company="Groupe BUT Informatique" webLink="" view-date="2026-09-12" view-index="0" version="3.4.3396" locale="fr_FR">
+    <description><![CDATA[Planning manuel du 09/09/2026 au 15/10/2026. Les dates sont fixées volontairement et aucune dépendance n'est définie afin d'éviter que GanttProject ne décale automatiquement les tâches. Les durées incluent une marge d'au moins 20 %. Travail possible le week-end.]]></description>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="271" order="0"/>
+        <field id="tpd4" name="Date de début" width="271" order="1"/>
+        <field id="tpd5" name="Date de fin" width="271" order="2"/>
+        <field id="tpd6" name="Durée" width="280" order="3"/>
+        <timeline><![CDATA[49]]></timeline>
+        <option id="taskLabelLeft" value="tpd3"/>
+        <option id="taskLabelRight" value="tpd3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="divider" value="0.8699059561128527"/>
+        <filters>
+            <filter title="filter.completedTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.dueTodayTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.overdueTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.inProgressTodayTasks" description="" is-built-in="true" is-enabled="false"/>
+        </filters>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="453" order="0"/>
+        <field id="1" name="Rôle par défaut" width="164" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="16" uid="c42fdfaa651648a9984f3a8d7513a26c" name="Conception" meeting="false" start="2026-09-18" duration="5" complete="0" expand="false" cost-manual-value="0" cost-calculated="false">
+            <task id="17" uid="71d95d04434142048251339eececc7c2" name="Définir l'arborescence" color="#99ccff" meeting="false" start="2026-09-18" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="18" uid="c314fe135593498cae9edbf863818a60" name="Lister toutes les pages" color="#99ccff" meeting="false" start="2026-09-19" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="19" uid="0053413b6b6245f4958f6a280b9f1957" name="Définir le contenu des pages" color="#99ccff" meeting="false" start="2026-09-19" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="20" uid="2afdbcba13c3434581f8aba5e21d596f" name="Répartir les pages" color="#99ccff" meeting="false" start="2026-09-19" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="21" uid="2cf7205d96c7408694e5ab8b2df713fb" name="Préparer maquettes / mise en page" color="#99ccff" meeting="false" start="2026-09-21" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+        </task>
+        <task id="22" uid="686eb18e75ce43d9b9564c15d6a8854e" name="Développement initial" meeting="false" start="2026-09-20" duration="6" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="23" uid="a5f1d5fa78fa48c9b921374de79b3433" name="Créer le dépôt GitHub" color="#99ccff" meeting="false" start="2026-09-20" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="24" uid="17f0813c97a741e29730d09e23ef8981" name="Créer la structure HTML" color="#99ccff" meeting="false" start="2026-09-20" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="25" uid="94a9e7a1d77b4917872d60bc20cc90e7" name="Créer les pages HTML" color="#99ccff" meeting="false" start="2026-09-21" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="26" uid="d5c5cc2ac02c4dbcb9c9b22b9566d770" name="faire une partie du texte de nôtre page" color="#99ccff" meeting="false" start="2026-09-22" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="27" uid="8708e047a82b4391aa6895b158845b8b" name="Créer le menu et la navigation" color="#99ccff" meeting="false" start="2026-09-24" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="28" uid="3d8829d9f96b4a5f848378ec9e000b62" name="Tester les liens" color="#99ccff" meeting="false" start="2026-09-25" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="29" uid="91c0d1b6c2a54ee2b948f27adf573a72" name="JALON — Rendu 25/09" color="#000000" meeting="true" start="2026-09-25" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+        </task>
+        <task id="30" uid="bc2876cdf30e44219c54b023cc9a02ed" name="Questionnaire 2" meeting="false" start="2026-09-25" duration="4" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="31" uid="659b6849e64141d98669b41b3258f9d0" name="Lister les informations manquantes" color="#99ccff" meeting="false" start="2026-09-25" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="32" uid="71b867b2906c4c7092c90a2b48aaa392" name="Rédiger questionnaire n°2" color="#99ccff" meeting="false" start="2026-09-26" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="33" uid="53387567b43b4de8bf37c718773382f3" name="Relire et déposer questionnaire n°2" color="#99ccff" meeting="false" start="2026-09-28" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="34" uid="762b460a171048f882e30a82fba86535" name="JALON — Rendu 28/09" color="#000000" meeting="true" start="2026-09-28" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+        </task>
+        <task id="35" uid="bb33c2bbab914862abef001405d8a515" name="Rendu 02/10" meeting="false" start="2026-09-28" duration="4" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="36" uid="529eb1690e3246f5a30e36ff31ba33ed" name="Développer page d'accueil" color="#99ccff" meeting="false" start="2026-09-28" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="37" uid="1e81db99d65b4cf6899a31345e8a5fb5" name="Finaliser le menu" color="#99ccff" meeting="false" start="2026-09-29" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="38" uid="f76e430309644a59a35b27a5349d04b4" name="Créer index.html" color="#99ccff" meeting="false" start="2026-09-30" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="39" uid="da826f6b9ba941438d83880801b51322" name="Ajouter les liens vers toutes les pages" color="#99ccff" meeting="false" start="2026-09-30" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="40" uid="3c98cad366e14b66b0d5ffc2936a89d2" name="Mettre à jour README.md" color="#99ccff" meeting="false" start="2026-10-01" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="41" uid="b465056d450743f0beecc7ab286e7081" name="Compléter le fichier ODS" color="#99ccff" meeting="false" start="2026-09-30" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="42" uid="d4e7b1a577ac4b48921c80a2433cc59f" name="Vérifier le dépôt" color="#99ccff" meeting="false" start="2026-10-01" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="43" uid="7a4663ee33374d53ba7da31d7e9d3bca" name="JALON — Rendu 02/10" color="#000000" meeting="true" start="2026-10-02" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+        </task>
+        <task id="44" uid="05e682d5242b47a4820636cd9b015885" name="Graphiques" meeting="false" start="2026-10-01" duration="8" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="45" uid="5dd06852911a4dc088dd271e9e36138a" name="Rassembler les données entreprise" color="#99ccff" meeting="false" start="2026-10-01" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="46" uid="b063bb627b5d44b38030bf47c6cdd7cd" name="Choisir les données pertinentes" color="#99ccff" meeting="false" start="2026-10-03" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="47" uid="0d3c6533d7c346b9bcb0e6cbda64eb76" name="Créer graphique n°1" color="#99ccff" meeting="false" start="2026-10-04" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="48" uid="85108916f8554351a89bb46f2ec5ef4c" name="Créer graphique n°2" color="#99ccff" meeting="false" start="2026-10-05" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="49" uid="66a8bcf0dea149419179410ad5be620f" name="Mettre en page le document" color="#99ccff" meeting="false" start="2026-10-07" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="50" uid="91239158b78145cfb77dfc8a10780087" name="Relire et finaliser" color="#99ccff" meeting="false" start="2026-10-08" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="51" uid="244e0aed3ea24a998212632999013cc0" name="JALON — Rendu 09/10" color="#000000" meeting="true" start="2026-10-09" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+        </task>
+        <task id="52" uid="de2b26346f0e487da62f79540615dbcf" name="Finalisation site" meeting="false" start="2026-10-04" duration="10" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="54" uid="2012e2bbf5f44467a50794bbdc0bdeae" name="Finaliser le contenu des pages" color="#99ccff" meeting="false" start="2026-10-04" duration="3" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="55" uid="d563111c565141f2b2150fdeb48d7c9a" name="Harmoniser design et navigation" color="#99ccff" meeting="false" start="2026-10-07" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="56" uid="ae8ad4dcb5244476a73a8d2b587a1526" name="Corriger HTML/CSS" color="#99ccff" meeting="false" start="2026-10-08" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="58" uid="39220ac896bf4729bdb4b7e98a3ff522" name="Tests de validité W3C" color="#99ccff" meeting="false" start="2026-10-11" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="59" uid="71b9c2b327854322bf37182d3113aee0" name="Corriger les erreurs W3C" color="#99ccff" meeting="false" start="2026-10-12" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="60" uid="5608ad2436da400c8e4e37015bb10655" name="Mettre à jour README" color="#99ccff" meeting="false" start="2026-10-12" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="61" uid="b515055cb5014d249a59954179d2ebed" name="Préparer attestation tests W3C" color="#99ccff" meeting="false" start="2026-10-12" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="62" uid="aa9bb0d0116a4970a513253759aeab3f" name="Vérification finale site + dépôts" color="#99ccff" meeting="false" start="2026-10-13" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="63" uid="7cbb242bdef64e2a9ad1665dfb9fd3c1" name="JALON — Site final + W3C + README" color="#000000" meeting="true" start="2026-10-13" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+        </task>
+        <task id="64" uid="9d086d6fb4f34c8f9e93839f903699e3" name="Soutenance" meeting="false" start="2026-10-13" duration="3" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="65" uid="33a14c239b1c4d19be601bb159589204" name="Préparer plan du diaporama" color="#99ccff" meeting="false" start="2026-10-13" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="66" uid="61f616941b0e4c77b4cf380479440fcb" name="Créer le diaporama" color="#99ccff" meeting="false" start="2026-10-13" duration="2" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="67" uid="c002acd360734eac9ac43a61f3ce3ebe" name="Préparer la démonstration" color="#99ccff" meeting="false" start="2026-10-14" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="68" uid="966677a3ccb243898b8fe1cf8cc4b04c" name="Répartir les parties à l'oral" color="#99ccff" meeting="false" start="2026-10-14" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="69" uid="38215c3723d540a385ed9029b34406f0" name="Répétition générale + chronométrage" color="#99ccff" meeting="false" start="2026-10-14" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="70" uid="037b3220d0f44173ab3c930f3c7b0802" name="Déposer diaporama + rétroplanning" color="#99ccff" meeting="false" start="2026-10-14" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="71" uid="74d09cad11214063afb0e09bbd039231" name="Envoyer mail évaluation investissement" color="#99ccff" meeting="false" start="2026-10-14" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="72" uid="a35e045a78c0401888f38b22e2fe242f" name="Corrections finales" color="#99ccff" meeting="false" start="2026-10-15" duration="1" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="73" uid="bd233d8059c04566b6131b52403baec3" name="JALON — Rendu documents 14/10" color="#000000" meeting="true" start="2026-10-14" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="74" uid="226b88915cd5417cb7e55a24433f8be3" name="JALON — SOUTENANCE 15/10 PM" color="#000000" meeting="true" start="2026-10-15" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="ousmane" function="Default:0" contacts="ousmane.dia@edu.univ-fcomte.fr" phone=""/>
+        <resource id="1" name="melvyn" function="Default:0" contacts="melvyn.kakumbi--soehnlen@edu.univ-fcomte.fr" phone=""/>
+        <resource id="2" name="layan" function="Default:0" contacts="layan.kali@edu.univ-fcomte.fr" phone=""/>
+        <resource id="3" name="aurelien" function="Default:0" contacts="aurelien.laclef@edu.univ-fcomte.fr" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
