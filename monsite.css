@@ -1,16 +1,21 @@
 html, body{
     margin: 70;
     padding: 70;
-    background-color: rgb(199, 233, 255);
+}
+
+html{
+    height: 100%;
+    background: linear-gradient(black,blue);
 }
 
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(84, 136, 214);
+    border-radius: 30px;
 }
 
 header>h1{
     text-align: center;
-    background-color: darkblue;
+    background-color: rgb(77, 77, 182);
 
 
 
@@ -23,31 +28,23 @@ header>nav{
 
 }
 
-#lulu{
-    background-color: hotpink;
-    margin-left: 40px;
-    margin-right: 40px;
-    border: dotted red;
+a:hover, a:visited, a:link, a:active{
+    font-size: large;
+    text-decoration: none;
 }
 
-#lulu:hover{
+#lulu, #lala, #lili{
+    background-color: rgb(199, 233, 255);
+    margin-left: 40px;
+    margin-right: 40px;
+    border: dotted black;
+    border-radius: 30px;
+}
+
+#lulu:hover, #lala:hover, #lili:hover{
     background-color: aliceblue;
     border: solid black;
     border-radius: 30px;
+    font-size: 140px;
 }
 
-#lala{
-    background-color: rgb(182, 97, 139);
-    margin-left: 40px;
-    margin-right: 40px;
-    border: dotted rgb(83, 54, 88);
-    border-radius: 30px;
-    box-shadow: 1px 1px 3px gray;
-}
-
-#lili{
-    background-color: rgb(61, 159, 172);
-    margin-left: 40px;
-    margin-right: 40px;
-    border: dotted rgb(26, 140, 160);
-}
