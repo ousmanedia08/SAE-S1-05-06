@@ -1,0 +1,53 @@
+html, body{
+    margin: 70;
+    padding: 70;
+    background-color: rgb(199, 233, 255);
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+header>h1{
+    text-align: center;
+    background-color: darkblue;
+
+
+
+}
+
+
+header>nav{
+    text-align: center;
+    margin: 150 px;
+
+}
+
+#lulu{
+    background-color: hotpink;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: dotted red;
+}
+
+#lulu:hover{
+    background-color: aliceblue;
+    border: solid black;
+    border-radius: 30px;
+}
+
+#lala{
+    background-color: rgb(182, 97, 139);
+    margin-left: 40px;
+    margin-right: 40px;
+    border: dotted rgb(83, 54, 88);
+    border-radius: 30px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#lili{
+    background-color: rgb(61, 159, 172);
+    margin-left: 40px;
+    margin-right: 40px;
+    border: dotted rgb(26, 140, 160);
+}
