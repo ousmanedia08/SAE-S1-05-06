@@ -5,7 +5,7 @@ html, body{
 
 html{
     height: 100%;
-    background: linear-gradient(black,blue);
+    background: linear-gradient(rgb(63, 110, 240),rgb(90, 196, 228));
 }
 
 header{
@@ -45,6 +45,17 @@ a:hover, a:visited, a:link, a:active{
     background-color: aliceblue;
     border: solid black;
     border-radius: 30px;
-    font-size: 140px;
+    font-size: 240px;
 }
+
+#Troll{
+    border-radius: 30px;
+}
+
+footer{
+   height : 130px;
+   text-align: center;
+   padding-top: 30px;
+}
+
 
