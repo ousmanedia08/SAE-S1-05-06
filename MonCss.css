@@ -8,6 +8,10 @@ html{
     background: linear-gradient(HEX
     #FFDA8B, HEX#FFEDC8);
 }
+header{
+     background-color: rgb(238, 240, 246);
+    border-radius: 30px; 
+}
 header>nav{text-align: center;
     background-color: green;
 }
