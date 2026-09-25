@@ -1,6 +1,6 @@
 html, body{
-    margin: 70;
-    padding: 70;
+    margin: 70px;
+    padding: 70px;
 }
 
 html{
@@ -24,7 +24,7 @@ header>h1{
 
 header>nav{
     text-align: center;
-    margin: 150 px;
+    margin: 150px;
 
 }
 
@@ -63,7 +63,7 @@ a:hover, a:visited, a:link, a:active{
     border-radius: 35px;
     margin: 30px;
     transform: scale(1.1);
-    box-shadow: 10px, 5px, 5px, gray;
+    box-shadow: 10px 5px 5px gray;
     
 }
 
