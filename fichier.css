@@ -3,6 +3,16 @@ body {
     background-color: #F2F2F2;
      padding: 20px;
 }
+header{
+    background-color: rgb(238, 240, 246);
+    border-radius: 30px;
+}
+
+header>nav{
+    text-align: center;
+    background-color: gre;
+
+}
 
 h1 {
     text-align: center;
