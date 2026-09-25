@@ -8,7 +8,7 @@ Notre site : [(https://ousmanedia08.github.io/SAE-S1-05-06)]
 
 DIA Ousmane (référent du groupe) :  ousmane.dia@edu.univ-fcomte.fr
 
-KALI Layan : layan.kali@edu.univ-fcomte.fr?subject=SAE_1_05_06 
+KALI Layan : layan.kali@edu.univ-fcomte.fr
 
 KAKUMBI--SOEHNLEN Melvyn : melvyn.kakumbi--soehnlen@edu.univ-fcomte.fr
 
