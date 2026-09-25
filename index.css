@@ -1,0 +1,55 @@
+html{
+    height: 100%;
+    background: linear-gradient(gainsboro,rgb(90, 196, 228));
+}
+
+
+header{
+    background-color: gainsboro;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+table{
+    width: 700px;
+    height: 900px;
+    background-color: gainsboro;
+    
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    border-radius: 20px;
+    border-collapse: collapse;
+    border: solid;
+}
+
+td{
+    border: solid;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+th{
+    border: solid;
+}
+
+footer{
+    background-color: rgb(90, 196, 228);
+}
+
+footer>p{
+    text-align: right;
+}

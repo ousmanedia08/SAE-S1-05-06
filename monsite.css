@@ -1,0 +1,79 @@
+html, body{
+    margin: 70;
+    padding: 70;
+}
+
+html{
+    height: 100%;
+    background: linear-gradient(rgb(63, 110, 240),rgb(90, 196, 228));
+}
+
+header{
+    background-color: rgb(84, 136, 214);
+    border-radius: 30px;
+}
+
+header>h1{
+    text-align: center;
+    background-color: rgb(77, 77, 182);
+
+
+
+}
+
+
+header>nav{
+    text-align: center;
+    margin: 150 px;
+
+}
+
+.text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+a:hover, a:visited, a:link, a:active{
+    font-size: large;
+    text-decoration: none;
+}
+
+#lulu, #lala, #lili{
+    background-color: rgb(199, 233, 255);
+    margin-left: 40px;
+    margin-right: 40px;
+    border: dotted black;
+    border-radius: 30px;
+}
+
+#lulu:hover, #lala:hover, #lili:hover{
+    background-color: aliceblue;
+    border: solid black;
+    border-radius: 30px;
+    font-size: 240px;
+}
+
+#Troll{
+    border-radius: 30px;
+    float: left;
+}
+
+#Troll:hover{
+    border-radius: 40px;
+    transform: scale(10.5);
+    
+}
+
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
