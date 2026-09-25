@@ -8,7 +8,9 @@ html{
     background: linear-gradient(HEX
     #FFDA8B, HEX#FFEDC8);
 }
-
+header>nav{text-align: center;
+    background-color: green;
+}
 header{
     background-color: rgb(240, 220, 130);
     border-radius: 30px;
