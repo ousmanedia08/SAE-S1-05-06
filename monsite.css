@@ -51,17 +51,19 @@ a:hover, a:visited, a:link, a:active{
     background-color: aliceblue;
     border: solid black;
     border-radius: 30px;
-    font-size: 240px;
+    font-size: 20px;
 }
 
-#Troll{
+#Image{
     border-radius: 30px;
     float: left;
 }
 
-#Troll:hover{
-    border-radius: 40px;
-    transform: scale(10.5);
+#Image:hover{
+    border-radius: 35px;
+    margin: 30px;
+    transform: scale(1.1);
+    box-shadow: 10px, 5px, 5px, gray;
     
 }
 
