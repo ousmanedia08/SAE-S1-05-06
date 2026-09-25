@@ -1,0 +1,66 @@
+html, body{
+    margin: 70;
+    padding: 70;
+}
+
+html{
+    height: 100%;
+    background: linear-gradient(HEX
+    #FFDA8B, HEX#FFEDC8);
+}
+
+header{
+    background-color: rgb(240, 220, 130);
+    border-radius: 30px;
+}
+
+header>h1{
+    text-align: center;
+    background-color: rgb(240, 220, 130);
+
+
+
+}
+
+
+header>nav{
+    text-align: center;
+    margin: 150 px;
+
+}
+
+a:hover, a:visited, a:link, a:active{
+    font-size: large;
+    text-decoration: none;
+}
+
+#lulu, #lala, #lili{
+    background-color: rgb(248, 196, 83);
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid black;
+    border-radius: 30px;
+}
+
+#lulu:hover, #lala:hover, #lili:hover{
+    background-color: rgb(248, 196, 83);
+    border: solid black;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: rgb(156, 131, 131);
+  padding: 20px;
+}
+
+
+#logo{
+    border-radius: 10px;
+}
