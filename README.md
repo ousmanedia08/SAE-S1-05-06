@@ -15,6 +15,8 @@ KAKUMBI--SOEHNLEN Melvyn : melvyn.kakumbi--soehnlen@edu.univ-fcomte.fr
 LATTIER Julian : mailto:julian.lattier@edu.univ-fcomte.fr
 
 
+##Le projet :
+
 Notre projet consiste en la création d'un site internet dédié à l'entreprise de jeux vidéo Gameloft.
 Nous prenons le rôle d'une entreprise qui à pour but de présenter les multiples aspects de Gameloft, nous
 comptons nous intéresser à son aspect économique principalement, mais nous souhaitons aussi faire part des
