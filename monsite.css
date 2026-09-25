@@ -1,6 +1,6 @@
 html, body{
-    margin: 70px;
-    padding: 70px;
+    margin: 20px;
+    padding: 20px;
 }
 
 html{
@@ -39,7 +39,7 @@ a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 }
 
-#lulu, #lala, #lili{
+#lulu, #lala, #lili, #lolo{
     background-color: rgb(199, 233, 255);
     margin-left: 40px;
     margin-right: 40px;
