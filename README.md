@@ -17,7 +17,8 @@ LATTIER Julian : mailto:julian.lattier@edu.univ-fcomte.fr
 
 ## Le projet :
 
-Notre projet consiste en la création d'un site internet dédié à l'entreprise de jeux vidéo Gameloft.
+Notre projet consiste en la création d'un site internet dédié à l'entreprise de jeux vidéo Gameloft : nom temporaire :
+"Gamelove".
 Nous prenons le rôle d'une entreprise qui à pour but de présenter les multiples aspects de Gameloft, nous
 comptons nous intéresser à son aspect économique principalement, mais nous souhaitons aussi faire part des
 côtés écologiques, historiques et de leur produits. Nous avons pour but d'avoir un site complet avec un minimum de 
