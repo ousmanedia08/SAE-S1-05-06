@@ -1,6 +1,6 @@
 html, body{
-    margin: 20px;
-    padding: 20px;
+    padding-right: 20px;
+    padding: 0px;
 }
 
 html{
@@ -17,40 +17,107 @@ header{
 
 header>h1{
     text-align: center;
-    background-color: rgb(77, 77, 182);
+}
 
-
-
+nav>button{
+    background-color: red;
+    border-color: blue;
 }
 
 .main{
-    margin-left: 150px;
+    margin-left: 120px;
+    transition-duration: 0.4s;
 }
 
-.side{
+.mainplus{
+    margin-left: 20px;
+    transition-duration: 0.4s;
+}
+
+.sideopen{
   border-top-right-radius: 9%;
   border-bottom-right-radius: 9%;
-  height: 100%;
+  height: 90vh;
   position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
+  width: 120px;
   top: 0;
   left: 0;
   background-color: darkgreen;
   padding-top: 60px;
   z-index: 1;
+  transition-duration: 0.4s;
 
 }
 
-.side a{
+
+.sideclose{
+  border-top-right-radius: 9%;
+  border-bottom-right-radius: 9%;
+  height: 90vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0;
+  top: 0;
+  left: 0;
+  background-color: darkgreen;
+  padding-top: 60px;
+  z-index: 1;
+  transition-duration: 0.4s;
+}
+
+.sideclose a:not(#alogo){
+    display: none;
+}
+
+/*A revoir : Fixed gene le scroll*/
+
+.sideclose #changemenu{
+    position: fixed;
+    top: 12px;
+    left: 90px;
+}
+
+.sideclose #alogo{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+
+
+.sideopen a:not(#alogo){
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 10px;
     padding: 2px;
 }
 
 
+.sideopen #alogo{
+    position: fixed;
+    top: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.sideopen:hover{
+    background-color: aqua;
+}
+
+#paragraphe1{
+    display: flex;
+    flex-direction: row;
+}
+
+#paragraphe2{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 
 
@@ -76,6 +143,7 @@ a:hover, a:visited, a:link, a:active{
     transition-duration: 0.3s;
 }
 
+
 #lulu:hover, #lala:hover, #lili:hover, #lolo:hover{
     background-color: aliceblue;
     border: solid black;
@@ -85,16 +153,37 @@ a:hover, a:visited, a:link, a:active{
     transition-duration: 0.3s;
 }
 
+.classe{
+    margin-bottom: auto;
+    margin-top: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lible{
+    font-size: 0px;
+}
+
+.classe:hover .lible{
+    font-size: 40px;
+}
+
 #Image{
     border-radius: 30px;
     float: left;
+    transition-duration: 0.3s;
+
 }
 
+
+
 #Image:hover{
-    border-radius: 35px;
+    border-radius: 10px;
     margin: 30px;
-    transform: scale(1.1);
-    box-shadow: 10px 5px 5px gray;
+    transform: scale(1.05);
+    box-shadow: -10px -10px 10px -10px rgb(114, 134, 219);
+    transition-duration: 0.3s;
     
 }
 
@@ -103,9 +192,10 @@ a:hover, a:visited, a:link, a:active{
 
 footer {
     position: fixed;
-    left: 130px;
+    left: 0;
     bottom: 0;
     width: 100%;
+    height: 5vh;
     background: linear-gradient(135deg,
     #e6eef8 0%,   
     #a1b5cc 20%,
@@ -116,6 +206,6 @@ footer {
     #051838 100% );
     color: white;
     text-align: center;
+    z-index: 2;
 }
-
 
