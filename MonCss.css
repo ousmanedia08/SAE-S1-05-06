@@ -261,3 +261,12 @@ footer {
 
     border-top: 4px solid #111111;
 }
+.Menu a { 
+width: 80px; 
+padding: 10px 5px; 
+text-align: center;
+text-decoration: none;
+color: white;
+background-color: #8c6717;
+border-radius: 15px;
+transition: 0.3s; }
