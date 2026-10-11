@@ -1,74 +1,95 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+html {
     height: 100%;
-    background: linear-gradient(#aeafb1,rgb(178, 182, 182));
+    background: linear-gradient(135deg, black, darkslateblue, darkslategray);
+    color: white;
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
-body{
-    margin-left: 95px;
-
+body > :not(footer) {
+    margin-left: 115px;
 }
 
-.titre{
-    background-color: rgb(66, 185, 126);
-    border-radius: 10px 10px 0px 0px;
-    text-align: center;
-}
-
-img{
+.logo {
     position: fixed;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    height: 46px;
-    width: 90px;
+    top: 10px;
+    left: 23px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
 }
 
-#button1, #button2, #button3, #button4,#button5{
-    background-color: rgb(103, 248, 142); margin-left: 40px;
-    color: rgb(71, 49, 192);
+#button1, #button2, #button3, #button4, #button5 {
+    background-color: teal;
+    margin-left: 40px;
+    color: white;
     border: none;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 25px;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 30px;
     text-decoration: none;
+    font-weight: 500px;
+    font-family: inherit;
 }
 
-.Menu{
+.Menu {
     position: fixed;
-    top: 50px;
-    padding-bottom: 20px;
+    top: 83px;
     left: 0px;
-    background: white;
+    background: midnightblue;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    height: 1000px;
-    width: 90px;
+    gap: 30px;
+    height: 80%;
+    width: 110px;
+    border: 1px solid mediumpurple;
+    border-radius: 15px;
 }
 
-main>div{
-    background-color: rgb(239, 239, 243);
+main > div {
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom:15px;
+    margin-top: 0px;
+    border: 1px solid mediumpurple;
 }
 
 
-a{
+.cadrejeux {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.jeux {
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+
+a {
     font-size: large;
-    color: #3e2375;
+    color: lightblue;
 }
 
-footer{
-   height : 20px;
-   width: 100%;
-   text-align: center;
-   padding-top: 5px;
+footer {
+    height: 40px;
+    width: 95%;
+    text-align: center;
+    margin: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: midnightblue;
 }
-.cadre-image {
-  width: 100%;
-  height: 300px;
-  border: 2px dashed #888;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #666;
-  background-color: #f2f2f2;
+
+.image {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
 }
