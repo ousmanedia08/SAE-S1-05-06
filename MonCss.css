@@ -13,25 +13,20 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #f3ebd3;
     color: #111111;
-    padding-bottom: 70px;
-}
+    /*padding-bottom: 70px;*/
+    }
 
 
 /*HDP*/
 
 header {
     background-color: white;
-
     border-bottom: 4px solid #6132A7;
-
-    border-radius: 0 0 25px 25px;
-
-    padding: 15px;
-
+    border-radius: 25px 25px 25px 25px;
+    /*padding: 15px;*/
     margin-left: 110px;
-
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
@@ -41,18 +36,14 @@ header {
 #logo {
     width: 70px;
     height: 70px;
-
     border-radius: 15px;
-
     display: block;
     margin: auto;
-
     transition: 0.3s;
 }
 
 #logo:hover {
     transform: scale(1.1);
-
     box-shadow: 0 0 15px #578ED3;
 }
 
@@ -61,25 +52,18 @@ header {
 
 .titre {
     text-align: center;
-
     color: #111111;
-
     background: linear-gradient(
         90deg,
         #578ED3,
         #6132A7,
-        #43887E
-    );
-
+        #43887E);
     border-radius: 20px;
-
     padding: 15px;
-
     margin: 15px auto;
-
     max-width: 700px;
-
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
 }
 
 
@@ -87,26 +71,17 @@ header {
 
 .Menu {
     position: fixed;
-
     top: 0;
     left: 0;
-
     width: 110px;
     height: 100vh;
-
     background-color: #111111;
-
     display: flex;
     flex-direction: column;
-
     align-items: center;
-
     gap: 15px;
-
-    padding-top: 30px;
-
+   padding-top: 30px;
     box-shadow: 4px 0 15px rgba(0, 0, 0, 0.3);
-
     z-index: 10;
 }
 
@@ -138,13 +113,9 @@ header {
 
 .Menu a:hover {
     background-color: #111111;
-
     color: white;
-
     border: 2px solid white;
-
     transform: scale(1.08);
-
     box-shadow: 0 0 12px rgba(87, 142, 211, 0.7);
 }
 
@@ -153,7 +124,6 @@ header {
 
 main {
     margin-left: 110px;
-
     padding: 30px;
 }
 
@@ -162,17 +132,11 @@ main {
 
 .bloc {
     background-color: #222222;
-
     border: 3px solid #578ED3;
-
     border-radius: 25px;
-
     padding: 25px;
-
     margin-bottom: 30px;
-
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
-
     transition: 0.3s;
 }
 
@@ -180,19 +144,19 @@ main {
 
 .bloc:hover {
     transform: translateY(-5px);
-
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     background-color:gradient
 }
 
-
 /*TITRE */
 
 .bloc h2 {
-    color:gray;
-
+    color:white;
     border-bottom: 3px solid #6132A7;
-
+    padding-bottom: 8px;
+}
+.bloc h3 {
+    color:white;
     padding-bottom: 8px;
 }
 
@@ -200,10 +164,8 @@ main {
 /* PARA */
 
 .bloc p {
-    color: gray;
-
+    color: #FFE4C4;
     font-size: 17px;
-
     line-height: 1.6;
 }
 
@@ -214,27 +176,21 @@ main {
 
 .image-bloc {
     display: flex;
-
     align-items: center;
-
     gap: 30px;
 }
 
 
 .image-bloc img {
     border-radius: 20px;
-
     border: 3px solid #43887E;
-
     transition: 0.3s;
 }
 
 
 .image-bloc img:hover {
     transform: scale(1.05);
-
     border-color: #6132A7;
-
     box-shadow: 0 0 20px rgba(97, 50, 167, 0.5);
 }
 
@@ -242,24 +198,19 @@ main {
 /*PIED DE PAGE*/
 
 footer {
-    position: fixed;
-
+    position: wrap;
+    
     left: 0;
     bottom: 0;
-
     width: 100%;
-
     background-color: #111111;
-
-    color: white;
-
+	color: white;
     text-align: center;
-
     padding: 10px;
-
     z-index: 10;
-
     border-top: 4px solid #111111;
+    position: sticky;
+  	top: 100vh;
 }
 .Menu a { 
 width: 80px; 
