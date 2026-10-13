@@ -1,44 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <link rel="stylesheet" media="screen" href="index.css" >
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.9">
-    <title>Acceuil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtualCore — Groupe de représentation Gameloft</title>
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="icon" type="image" href="virtualcore.png">
 </head>
+
 <body>
-        <header>
-            <h1>Index</h1>
-        </header>
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">
+            <img src="virtualcore.png" alt="Logo VirtualCore">
+            <span>VIRTUAL<strong>CORE</strong></span>
+        </a>
 
+        <div class="nav-liens">
+            <a href="index.html" class="actif">Accueil</a>
+            <a href="site_jlattier.html">Histoire</a>
+            <a href="site_lkali.html">Écologie</a>
+            <a href="site_odia.html">Produits</a>
+            <a href="site_mkakumbi.html">Finances</a>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="hero-contenu">
+            <p class="hero-etiquette">Groupe de représentation · Gameloft</p>
+            <h1>VIRTUAL<span>CORE</span></h1>
+            <p class="hero-slogan">
+                Le groupe d'étudiants qui étudie, analyse et fait découvrir
+                l'univers de <strong>Gameloft</strong> — du premier jeu mobile
+                aux productions mondiales d'aujourd'hui.
+            </p>
+            <div class="hero-boutons">
+                <a href="#piliers" class="btn-principal">Découvrir nos analyses</a>
+                <a href="#apropos" class="btn-ghost">Qui sommes-nous ?</a>
+            </div>
+        </div>
+        <a href="#chiffres" class="hero-scroll">▼</a>
+    </header>
+    <section class="bandeau" id="chiffres">
+        <div class="bandeau-item">
+            <p class="bandeau-chiffre">1999</p>
+            <p class="bandeau-texte">création de Gameloft</p>
+        </div>
+        <div class="bandeau-item">
+            <p class="bandeau-chiffre">4</p>
+            <p class="bandeau-texte">pôles d'analyse</p>
+        </div>
+        <div class="bandeau-item">
+            <p class="bandeau-chiffre">5</p>
+            <p class="bandeau-texte">membres passionnés</p>
+        </div>
+        <div class="bandeau-item">
+            <p class="bandeau-chiffre">1</p>
+            <p class="bandeau-texte">entreprise étudiée en profondeur</p>
+        </div>
+    </section>
+    <section class="apropos" id="apropos">
+        <div class="apropos-texte">
+            <p class="sur-titre">Qui sommes-nous ?</p>
+            <h2>Un groupe au cœur du jeu vidéo</h2>
+            <p>
+                VirtualCore est un groupe d'étudiants réunis autour d'une même
+                passion : le jeu vidéo. Pour ce projet, nous avons choisi d'étudier
+                Gameloft, l'entreprise française fondée par Michel Guillemot qui
+                s'est imposée comme un acteur majeur du jeu mobile dans le monde.
+            </p>
+            <p>
+                Chaque membre du groupe s'est spécialisé dans un domaine :
+                l'histoire, les produits, l'écologie et les finances.
+                Le résultat : une vision complète et détaillée de l'entreprise.
+            </p>
+        </div>
+        <div class="apropos-logo">
+            <img src="virtualcore.png" alt="Logo du groupe VirtualCore">
+        </div>
+    </section>
+    <section class="piliers" id="piliers">
+        <p class="sur-titre">Notre travail</p>
+        <h2>4 pôles pour comprendre Gameloft</h2>
+        <p class="piliers-intro">Chaque carte vous emmène sur l'analyse d'un membre du groupe.</p>
+        <div class="piliers-grille">
+            <a href="site_jlattier.html" class="carte">
+                <p class="carte-numero">01</p>
+                <h3>Histoire</h3>
+                <p>De 1999 à aujourd'hui : la révolution des smartphones,
+                   les franchises emblématiques et la croissance de l'entreprise.</p>
+                <span class="carte-lien">Explorer →</span>
+                <span class="carte-auteur">J. Lattier</span>
+            </a>
+            <a href="site_lkali.html" class="carte">
+                <p class="carte-numero">02</p>
+                <h3>Écologie</h3>
+                <p>Play the Good Game : énergies renouvelables, Green Game Jam
+                   et engagements pour la planète.</p>
+                <span class="carte-lien">Explorer →</span>
+                <span class="carte-auteur">L. Kali</span>
+            </a>
+            <a href="site_odia.html" class="carte">
+                <p class="carte-numero">03</p>
+                <h3>Produits</h3>
+                <p>Asphalt, Disney Dreamlight Valley, Minion Rush...
+                   les jeux qui font la renommée mondiale de Gameloft.</p>
+                <span class="carte-lien">Explorer →</span>
+                <span class="carte-auteur">O. Dia</span>
+            </a>
+            <a href="site_mkakumbi.html" class="carte">
+                <p class="carte-numero">04</p>
+                <h3>Finances</h3>
+                <p>Chiffre d'affaires, répartition de l'activité et effectifs :
+                   les chiffres clés de la santé de l'entreprise.</p>
+                <span class="carte-lien">Explorer →</span>
+                <span class="carte-auteur">M. Kakumbi</span>
+            </a>
 
-    <table>
-    <tr>
-        <th>Auteur</th>
-        <th>Lien</th>
-        <th>Sujet</th>
-    </tr>
-    <tr>
-        <td>Julian LATTIER</td>
-        <td>
-            <a href="./site_jlattier.html">
-                Page Histoire
-            </a>
-        </td>
-        <td>Histoire de Gameloft</td>
-    </tr>
-    <tr>>
-        <td>Melvyn KAKUMBI--SOEHNLEN</td>
-        <td>
-            <a href="./site_mkakumbi.html">
-                Page Economie
-            </a>
-        </td>
-        <td>Economie de Gameloft</td>
-    </tr>
-    <tr>
-        <td>Layan KALI</td>
+        </div>
+    </section>
+    <section class="cta">
+        <h2>Envie d'en savoir plus sur Gameloft ?</h2>
+        <p>Plongez dans nos quatre analyses ou visitez le site officiel de l'entreprise.</p>
+        <div class="cta-boutons">
+            <a href="#piliers" class="btn-principal">Voir nos analyses</a>
+            <a href="https://www.gameloft.com" target="_blank" class="btn-ghost">gameloft.com ↗</a>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-marque">VIRTUAL<strong>CORE</strong> × GAMELOFT</p>
+        <p class="footer-equipe">Projet réalisé par J. Lattier · L. Kali · O. Dia · M. Kakumbi</p>
+        <div class="footer-liens">
+            <a href="site_jlattier.html">Histoire</a>
+            <a href="site_lkali.html">Écologie</a>
+            <a href="site_odia.html">Produits</a>
+            <a href="site_mkakumbi.html">Finances</a>
+        </div>
+        <p class="footer-fin">© 2026 VirtualCore — Groupe de représentation Gameloft</p>
+    </footer>
+
+</body>
+
+</html>
         <td>
             <a href="./site_lkali.html">
                 Page Écologie
