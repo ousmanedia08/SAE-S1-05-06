@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* PAGE */
+
+html {
+    height: 100%;
+    background: rgb(226, 224, 224);
+    color: black;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+body > :not(footer) {
+    margin-left: 115px;
+}
+
+/* LOGO ET MENU */
+
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 23px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.Menu {
+    position: fixed;
+    top: 83px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 80%;
+    width: 110px;
+}
+
+.Menu a {
+    background-color: #43887E;
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Menu a:hover {
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+/* BLOCS */
+
+main > section {
+    background: linear-gradient(50deg, rgb(23, 159, 205), teal, purple);
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 1px solid mediumpurple;
+}
+
+.bloc:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* TITRES */
+
+.bloc h2 {
+    border-bottom: 3px solid #6132A7;
+    padding-bottom: 8px;
+}
+
+.bloc h3 {
+    padding-bottom: 8px;
+}
+
+/* PARAGRAPHES */
+
+.bloc p {
+    color: #FFE4C4;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* BLOC IMAGE */
+
+.image-bloc {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.image-bloc img {
+    border-radius: 20px;
+    border: 3px solid #43887E;
+    transition: 0.3s;
+}
+
+.image-bloc img:hover {
+    transform: scale(1.05);
+    border-color: #6132A7;
+    box-shadow: 0 0 20px rgba(97, 50, 167, 0.5);
+}
+
+/* LIENS */
+
+a {
+    font-size: large;
+    color: purple;
+}
+
+#buttonous {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #43887E;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#buttonous:hover {
+    border: 2px solid white;
+    transform: scale(1.08);
+    box-shadow: 0 0 12px rgba(87, 142, 211, 0.7);
+}
+
+/* PIED DE PAGE */
+
+footer {
+    height: 40px;
+    width: 95%;
+    text-align: center;
+    margin: 30px;
+    padding-top: 1px;
+    border: none;
+    border-radius: 12px;
+    background-color: teal;
+}
