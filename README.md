@@ -73,7 +73,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 <img src="doc/capture_3_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_3_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="doc/Capture_3_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
 **Auteur : KAKUMBI-SOEHNLEN Melvyn**  
 
