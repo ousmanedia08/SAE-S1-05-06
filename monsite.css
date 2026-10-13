@@ -1,37 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 html, body{
+    font-family: 'Montserrat', Arial, sans-serif;
     padding-right: 20px;
     padding: 0px;
 }
 
 html{
     height: 100%;
-    background: linear-gradient(-45deg,rgb(63, 110, 240),rgb(90, 196, 228));
+    background: rgb(226, 224, 224);
 }
 
 header{
     top: 0;
-    background-color: rgb(84, 136, 214);
     border-radius: 30px;
     margin-left: 150px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header>h1{
     text-align: center;
 }
 
-nav>button{
-    background-color: red;
-    border-color: blue;
+header>img{
+    border-radius: 30px ;
 }
 
 .main{
     margin-left: 120px;
     transition-duration: 0.4s;
-}
-
-.mainplus{
-    margin-left: 20px;
-    transition-duration: 0.4s;
+    align-content: center;
 }
 
 .sideopen{
@@ -45,54 +48,16 @@ nav>button{
   width: 120px;
   top: 0;
   left: 0;
-  background-color: darkgreen;
   padding-top: 60px;
   z-index: 1;
   transition-duration: 0.4s;
 
 }
-
-
-.sideclose{
-  border-top-right-radius: 9%;
-  border-bottom-right-radius: 9%;
-  height: 90vh;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 0;
-  top: 0;
-  left: 0;
-  background-color: darkgreen;
-  padding-top: 60px;
-  z-index: 1;
-  transition-duration: 0.4s;
-}
-
-.sideclose a:not(#alogo){
-    display: none;
-}
-
-/*A revoir : Fixed gene le scroll*/
-
-.sideclose #changemenu{
-    position: fixed;
-    top: 12px;
-    left: 90px;
-}
-
-.sideclose #alogo{
-    position: fixed;
-    top: 30px;
-    left: 30px;
-}
-
 
 
 .sideopen a:not(#alogo){
     margin-top: auto;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     padding: 2px;
 }
 
@@ -106,7 +71,7 @@ nav>button{
 }
 
 .sideopen:hover{
-    background-color: aqua;
+    background-color: rgb(197, 218, 219);
 }
 
 #paragraphe1{
@@ -114,17 +79,46 @@ nav>button{
     flex-direction: row;
 }
 
+#paragraphe1>p{
+    text-align: right;
+}
+
 #paragraphe2{
     display: flex;
     flex-direction: row-reverse;
 }
 
-
-
-.text {
-  display: inline-block;
-  vertical-align: top;
+#paragraphe3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#paragraphe3>p{
+    text-align: center;
+}
+
+.text{
+    color: white;
+    background:linear-gradient(100deg,rgb(23, 159, 205),teal,purple) ;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.textReverse{
+    color: white;
+    background:linear-gradient(100deg,purple,teal,rgb(23, 159, 205)) ;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.intro{
+    border-bottom: solid;
+    border-color: black;
+}
+
 
 
 a:hover, a:visited, a:link, a:active{
@@ -134,20 +128,17 @@ a:hover, a:visited, a:link, a:active{
 
 
 #lulu, #lala, #lili, #lolo{
-    background-color: rgb(199, 233, 255);
+    transform: scale(1.5);
+    background-color: #43887E;
+    color: white;
     margin-left: 40px;
     margin-right: 40px;
-    border: solid black;
-    border-width: 1px;
     border-radius: 30px;
     transition-duration: 0.3s;
 }
 
 
 #lulu:hover, #lala:hover, #lili:hover, #lolo:hover{
-    background-color: aliceblue;
-    border: solid black;
-    border-width: 2px;
     border-radius: 30px;
     font-size: 20px;
     transition-duration: 0.3s;
@@ -166,11 +157,13 @@ a:hover, a:visited, a:link, a:active{
 }
 
 .classe:hover .lible{
+    position: relative;
     font-size: 40px;
 }
 
 #Image{
     border-radius: 30px;
+    margin: 30px;
     float: left;
     transition-duration: 0.3s;
 
@@ -178,11 +171,29 @@ a:hover, a:visited, a:link, a:active{
 
 
 
-#Image:hover{
+.imgLeft:hover{
     border-radius: 10px;
     margin: 30px;
-    transform: scale(1.05);
+    transform: scale(1.1);
     box-shadow: -10px -10px 10px -10px rgb(114, 134, 219);
+    transition-duration: 0.3s;
+    
+}
+
+.imgRight:hover{
+    border-radius: 10px;
+    margin: 30px;
+    transform: scale(1.1);
+    box-shadow: 10px -10px 10px -10px rgb(114, 134, 219);
+    transition-duration: 0.3s;
+    
+}
+
+.imgMid:hover{
+    border-radius: 10px;
+    margin: 30px;
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px -10px rgb(114, 134, 219);
     transition-duration: 0.3s;
     
 }
@@ -190,22 +201,33 @@ a:hover, a:visited, a:link, a:active{
 
 
 
+
+
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 5vh;
-    background: linear-gradient(135deg,
+    background: linear-gradient(100deg,
     #e6eef8 0%,   
-    #a1b5cc 20%,
-    #0d2b5c 45%,  
-    #ffffff 50%,  
-    #1b4380 55%,   
-    #cbd8e6 80%,  
-    #051838 100% );
+    purple 20%,
+    teal 60%,  
+    rgb(23, 159, 205) );
     color: white;
     text-align: center;
-    z-index: 2;
+    border-radius: 30px;
 }
 
+footer>p{
+    padding-top: 15px;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+#alogo:hover {
+    transform: rotate(3turn) scale(1.3);
+    transition-duration: 1s;
+
+}
