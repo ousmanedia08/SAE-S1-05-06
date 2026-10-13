@@ -25,7 +25,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur : KALI Layan**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fousmanedia08.github.io%2FSAE-S1-05-06%2Findex.html)
 
 
 ![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
@@ -45,9 +45,9 @@ ou
 
 ### Présentation générale
 
-**Auteur : Nom Prénom**  
+**Auteur : KALI Layan**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fousmanedia08.github.io%2FSAE-S1-05-06%2Fsite_lkali.html)
 
 <br>
 <img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
@@ -55,29 +55,63 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 <br>
 <img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
 
+**Auteur : LATTIER Julian**  
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fousmanedia08.github.io%2FSAE-S1-05-06%2Fsite_jlattier.html)
+
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+**Auteur : DIA Ousmane**  
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fousmanedia08.github.io%2FSAE-S1-05-06%2Fsite_odia.html)
+
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+**Auteur : KAKUMBI-SOEHNLEN Melvyn**  
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fousmanedia08.github.io%2FSAE-S1-05-06%2Fsite_mkakumbi.html)
+
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+
 ## Répartition du travail
 
 ### Planification - Diagramme de GANTT
 
-- Nom Prénom
+- Lattier Julian
 
 ### Recherches d'informations
 
-- Nom Prénom
-- Nom Prénom
+- KAKUMBI-SOEHNLEN Melvyn
+- DIA Ousmane
 
 
 ### Développement site
 
-- Nom Prénom
+- DIA Ousmane
   - Page d’accueil
   - "Template" de page (Navbar/Footer)
   - Page présentation
-- Nom Prénom
+- Lattier Julian
   - Page histoire
-- Nom Prénom
-  - Page organisation
-
+- DIA Ousmane
+  - Page produit
+- KAKUMBI-SOEHNLEN Melvyn 
+  - Page Economie
+- Kali Layan
+  - Page Ecologie
 
 ## Contributeurs
 
