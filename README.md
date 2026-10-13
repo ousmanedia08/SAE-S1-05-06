@@ -100,7 +100,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 ### Développement site
 
-- DIA Ousmane
+- Kali Layan
   - Page d’accueil
   - "Template" de page (Navbar/Footer)
   - Page présentation
