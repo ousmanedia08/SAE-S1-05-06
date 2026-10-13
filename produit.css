@@ -2,8 +2,8 @@
 
 html {
     height: 100%;
-    background: linear-gradient(135deg, black, darkslateblue, darkslategray);
-    color: white;
+    background: rgb(226, 224, 224);
+    color: black;
     font-family: 'Montserrat', Arial, sans-serif;
 }
 
@@ -24,31 +24,26 @@ body > :not(footer) {
     background-color: teal;
     margin-left: 40px;
     color: white;
-    border: none;
     padding: 10px;
     margin: 8px;
     border-radius: 30px;
     text-decoration: none;
-    font-weight: 500px;
-    font-family: inherit;
 }
 
 .Menu {
     position: fixed;
     top: 83px;
     left: 0px;
-    background: midnightblue;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
     height: 80%;
     width: 110px;
-    border: 1px solid mediumpurple;
-    border-radius: 15px;
+
 }
 
 main > div {
-    background-color: indigo;
+    background:linear-gradient(50deg,rgb(23, 159, 205),teal,purple) ;
     color: white;
     padding: 10px;
     border-radius: 12px;
@@ -58,7 +53,15 @@ main > div {
 }
 
 
-.cadrejeux {
+.cadrejeux1{
+    background:linear-gradient(100deg,purple,teal,rgb(23, 159, 205)) ;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cadrejeux2{
+    background:linear-gradient(100deg,rgb(23, 159, 205),teal,purple) ;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -73,7 +76,7 @@ main > div {
 
 a {
     font-size: large;
-    color: lightblue;
+    color: purple;
 }
 
 footer {
@@ -81,9 +84,10 @@ footer {
     width: 95%;
     text-align: center;
     margin: 30px;
+    padding-top: 1px;
     border: none;
     border-radius: 12px;
-    background-color: midnightblue;
+    background-color: teal;
 }
 
 .image {
