@@ -19,4 +19,4 @@ jobs:
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
-          git push "https://oauth2:${GITLAB_TOKEN}@gitlab.com/TON-GROUPE/TON-PROJET.git" "HEAD:${GITHUB_REF_NAME}"
+          git push "https://oauth2:${GITLAB_TOKEN}@gitlab.com/juju-corp-group/SAE-S1-05-06.git" "HEAD:${GITHUB_REF_NAME}"
