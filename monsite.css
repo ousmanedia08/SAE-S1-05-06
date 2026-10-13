@@ -98,6 +98,16 @@ header>img{
     text-align: center;
 }
 
+#paragraphe4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#paragraphe4>p{
+    text-align: center;
+}
+
 .text{
     color: white;
     background:linear-gradient(100deg,rgb(23, 159, 205),teal,purple) ;
@@ -144,27 +154,11 @@ a:hover, a:visited, a:link, a:active{
     transition-duration: 0.3s;
 }
 
-.classe{
-    margin-bottom: auto;
-    margin-top: auto;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
 
-.lible{
-    font-size: 0px;
-}
 
-.classe:hover .lible{
-    position: relative;
-    font-size: 40px;
-}
-
-#Image{
+#Image1, #Image2, #Image3, #Image4{
     border-radius: 30px;
     margin: 30px;
-    float: left;
     transition-duration: 0.3s;
 
 }
